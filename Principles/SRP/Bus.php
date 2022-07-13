@@ -180,5 +180,16 @@ class Bus
 
     }
 
+    public function move()
+    {
+        $output = '';
+        foreach ($this->get_routes() as $route){
+            $output .= '<p> I am moving from ' . $route->get_source() . ' to '. $route->get_destination() . ' at a maximum speed of '
+                        . $this->get_max_speed();
+        }
+
+        return $output;
+    }
+
 
 }
