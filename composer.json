@@ -4,8 +4,9 @@
         "SOLID\\" : "Principles/"
       }
   },
-  "required-dev" : {
+  "require-dev": {
     "squizlabs/php_codesniffer" : "^3.2.0",
-    "phpmd/phpmd" : "^2.6.0"
+    "phpmd/phpmd": "^2.6.0",
+    "phpunit/phpunit" : "^9.5.0"
   }
 }
