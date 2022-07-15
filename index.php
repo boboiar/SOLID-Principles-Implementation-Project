@@ -12,5 +12,9 @@
 <h3>Liskov Substitution Principle (LSP) </h3>
 <a href="index_lsp.php">(LSP)</a>
 
+
+<h3>Dependency Inversion Principle (DIP) </h3>
+<a href="index_dip.php">(DIP)</a>
+
 </body>
 </html>
